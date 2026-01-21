@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-image: radial-gradient(circle at 1px 1px, hsl(220 13% 25% / 0.5) 1px, transparent 0);
+    background-size: 2rem 2rem;
+  }
+}

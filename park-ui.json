@@ -1,0 +1,76 @@
+{
+  "$schema": "https://park-ui.com/schema.json",
+  "cssFramework": "tailwind",
+  "jsFramework": "react",
+  "importAlias": "@/components/ui",
+  "theme": {
+    "tokens": {
+      "colors": {
+        "current": { "value": "currentColor" },
+        "black": { "value": "#111111" },
+        "white": { "value": "#ffffff" },
+        "green": {
+          "50": { "value": "hsl(148, 77%, 96%)" },
+          "100": { "value": "hsl(148, 63%, 91%)" },
+          "200": { "value": "hsl(148, 60%, 83%)" },
+          "300": { "value": "hsl(147, 56%, 71%)" },
+          "400": { "value": "hsl(147, 50%, 57%)" },
+          "500": { "value": "hsl(147, 50%, 42%)" },
+          "600": { "value": "hsl(147, 50%, 35%)" },
+          "700": { "value": "hsl(147, 51%, 29%)" },
+          "800": { "value": "hsl(148, 52%, 23%)" },
+          "900": { "value": "hsl(148, 53%, 19%)" },
+          "950": { "value": "hsl(148, 57%, 11%)" }
+        },
+        "slate": {
+          "50": { "value": "hsl(220, 14%, 96%)" },
+          "100": { "value": "hsl(220, 13%, 91%)" },
+          "200": { "value": "hsl(220, 13%, 85%)" },
+          "300": { "value": "hsl(220, 10%, 70%)" },
+          "400": { "value": "hsl(220, 10%, 55%)" },
+          "500": { "value": "hsl(220, 10%, 45%)" },
+          "600": { "value": "hsl(220, 10%, 35%)" },
+          "700": { "value": "hsl(220, 13%, 25%)" },
+          "800": { "value": "hsl(220, 13%, 18%)" },
+          "900": { "value": "hsl(220, 13%, 12%)" },
+          "950": { "value": "hsl(220, 14%, 10%)" }
+        }
+      }
+    },
+    "semanticTokens": {
+      "colors": {
+        "bg": {
+          "canvas": { "value": { "_dark": "{colors.slate.950}" } },
+          "default": { "value": { "base": "{colors.white}", "_dark": "{colors.slate.900}" } },
+          "subtle": { "value": { "base": "{colors.slate.100}", "_dark": "{colors.slate.800}" } },
+          "muted": { "value": { "base": "{colors.slate.200}", "_dark": "{colors.slate.700}" } },
+          "emphasized": { "value": { "base": "{colors.slate.300}", "_dark": "{colors.slate.600}" } },
+          "disabled": { "value": { "base": "{colors.slate.100}", "_dark": "{colors.slate.800}" } }
+        },
+        "fg": {
+          "default": { "value": { "base": "{colors.slate.800}", "_dark": "{colors.slate.100}" } },
+          "muted": { "value": { "base": "{colors.slate.600}", "_dark": "{colors.slate.300}" } },
+          "subtle": { "value": { "base": "{colors.slate.500}", "_dark": "{colors.slate.400}" } },
+          "disabled": { "value": { "base": "{colors.slate.400}", "_dark": "{colors.slate.600}" } }
+        },
+        "border": {
+          "default": { "value": { "base": "{colors.slate.200}", "_dark": "{colors.slate.700}" } },
+          "emphasized": { "value": { "base": "{colors.slate.300}", "_dark": "{colors.slate.600}" } },
+          "outline": { "value": { "base": "{colors.slate.700}", "_dark": "{colors.green.500}" } },
+          "accent": { "value": { "base": "{colors.green.500}", "_dark": "{colors.green.500}" } }
+        },
+        "accent": {
+          "fg": { "value": { "base": "{colors.white}", "_dark": "{colors.green.950}" } },
+          "default": { "value": { "base": "{colors.green.600}", "_dark": "{colors.green.500}" } },
+          "emphasized": { "value": { "base": "{colors.green.700}", "_dark": "{colors.green.400}" } },
+          "subtle": { "value": { "base": "{colors.green.50}", "_dark": "{colors.slate.800}" } }
+        }
+      }
+    },
+    "radii": {
+      "l1": { "value": "0.25rem" },
+      "l2": { "value": "0.5rem" },
+      "l3": { "value": "0.75rem" }
+    }
+  }
+}

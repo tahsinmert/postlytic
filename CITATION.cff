@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: LinkedIn Post Analyzer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tahsin
+    family-names: Mert
+repository-code: 'https://github.com/tahsinmert/postlytic'
+abstract: >-
+  An advanced AI-powered workspace for analyzing and optimizing LinkedIn content 
+  using natural language processing and virality frameworks. Features include 
+  pattern decoding, hook optimization, and audience simulation.
+keywords:
+  - linkedin
+  - content-optimization
+  - artificial-intelligence
+  - nextjs
+  - visualization
+license: MIT
+version: 1.0.0
+date-released: '2024-01-21'
