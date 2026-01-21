@@ -4,23 +4,23 @@ export function JsonLd() {
         '@graph': [
             {
                 '@type': 'WebSite',
-                '@id': 'https://postlytic.com/#website',
-                url: 'https://postlytic.com',
+                '@id': 'https://postlytic-ten.vercel.app/#website',
+                url: 'https://postlytic-ten.vercel.app',
                 name: 'Postlytic',
                 description: 'AI-Powered LinkedIn Post Analysis & Growth Tool',
                 publisher: {
-                    '@id': 'https://postlytic.com/#organization',
+                    '@id': 'https://postlytic-ten.vercel.app/#organization',
                 },
                 inLanguage: 'en-US',
             },
             {
                 '@type': 'Organization',
-                '@id': 'https://postlytic.com/#organization',
+                '@id': 'https://postlytic-ten.vercel.app/#organization',
                 name: 'Postlytic',
-                url: 'https://postlytic.com',
+                url: 'https://postlytic-ten.vercel.app',
                 logo: {
                     '@type': 'ImageObject',
-                    url: 'https://postlytic.com/logo.png',
+                    url: 'https://postlytic-ten.vercel.app/logo.png',
                     width: 512,
                     height: 512,
                 },

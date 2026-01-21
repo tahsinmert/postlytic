@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://postlytic.vercel.app/'),
+  metadataBase: new URL('https://postlytic-ten.vercel.app/'),
   title: {
     default: 'Postlytic | AI LinkedIn Post Analyzer & Viral Growth Tool',
     template: '%s | Postlytic',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://postlytic.vercel.app/',
+    url: 'https://postlytic-ten.vercel.app/',
     title: 'Postlytic | AI LinkedIn Post Analyzer',
     description: 'Stop guessing. Use AI to predict and improve your LinkedIn post performance before you publish.',
     siteName: 'Postlytic',

@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://postlytic.vercel.app/';
+    const baseUrl = 'https://postlytic-ten.vercel.app/';
 
     return [
         {

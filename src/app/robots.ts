@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-    const baseUrl = 'https://postlytic.vercel.app/';
+    const baseUrl = 'https://postlytic-ten.vercel.app/';
 
     return {
         rules: {
